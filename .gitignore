@@ -1,0 +1,39 @@
+# Gradle
+.gradle
+/build
+/*/build
+!/gradle/wrapper/gradle-wrapper.jar
+
+# Local config (device/SDK paths, never commit)
+/local.properties
+local.properties
+
+# Android Studio / IntelliJ
+*.iml
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetSelector.xml
+.idea/*.xml.bak
+
+# Android native build
+.externalNativeBuild
+.cxx
+/captures
+*.apk
+*.aab
+
+# Signing (never commit keystores)
+*.jks
+*.keystore
+keystore.properties
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project docs kept local-only (session notes, phase writeups)
+/markdowns
