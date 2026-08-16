@@ -24,4 +24,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "APKalypse"
 include(":app")
+include(":core-ui")
  
